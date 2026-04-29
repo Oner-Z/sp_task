@@ -1,0 +1,4 @@
+msg/GimbalControlMsg.idl
+msg/GimbalControlMsg.msg
+msg/LogMsg.idl
+msg/LogMsg.msg

@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/zph/task/build/qos_debugger': AMENT_PREFIX_PATH=/home/zph/task/install/robot_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/zph/task/install/robot_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zph/task/build/qos_debugger -- -j20 -l20
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target qos_debugger_node[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o[0m
+[5.033s] [100%] [32m[1mLinking CXX executable qos_debugger_node[0m
+[5.291s] [100%] Built target qos_debugger_node
+[5.301s] Invoked command in '/home/zph/task/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/zph/task/install/robot_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/zph/task/install/robot_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zph/task/build/qos_debugger -- -j20 -l20
+[5.302s] Invoking command in '/home/zph/task/build/qos_debugger': AMENT_PREFIX_PATH=/home/zph/task/install/robot_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/zph/task/install/robot_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zph/task/build/qos_debugger
+[5.307s] -- Install configuration: ""
+[5.307s] -- Installing: /home/zph/task/install/qos_debugger/lib/qos_debugger/qos_debugger_node
+[5.309s] -- Set runtime path of "/home/zph/task/install/qos_debugger/lib/qos_debugger/qos_debugger_node" to ""
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/launch
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/launch/qos_debugger.launch.pyZone.Identifier
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/launch/qos_debugger.launch.py
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/ament_index/resource_index/package_run_dependencies/qos_debugger
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/ament_index/resource_index/parent_prefix_path/qos_debugger
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.sh
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/environment/ament_prefix_path.dsv
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/environment/path.sh
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/environment/path.dsv
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/local_setup.bash
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/local_setup.sh
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/local_setup.zsh
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/local_setup.dsv
+[5.310s] -- Installing: /home/zph/task/install/qos_debugger/share/qos_debugger/package.dsv
+[5.310s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/ament_index/resource_index/packages/qos_debugger
+[5.311s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig.cmake
+[5.311s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/cmake/qos_debuggerConfig-version.cmake
+[5.311s] -- Up-to-date: /home/zph/task/install/qos_debugger/share/qos_debugger/package.xml
+[5.312s] Invoked command in '/home/zph/task/build/qos_debugger' returned '0': AMENT_PREFIX_PATH=/home/zph/task/install/robot_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/zph/task/install/robot_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zph/task/build/qos_debugger

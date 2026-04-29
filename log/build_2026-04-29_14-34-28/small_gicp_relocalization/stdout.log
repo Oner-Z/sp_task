@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target relocalization_node[0m
+[100%] Built target relocalization_node
+-- Install configuration: ""
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/lib/small_gicp_relocalization/relocalization_node
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/launch
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/relocalization.launch.pyZone.Identifier
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/relocalization.launch.py
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/config
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/config/relocalization.yaml
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/config/relocalization.yamlZone.Identifier
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/ament_index/resource_index/package_run_dependencies/small_gicp_relocalization
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/ament_index/resource_index/parent_prefix_path/small_gicp_relocalization
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.sh
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.dsv
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.bash
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.sh
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.zsh
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.dsv
+-- Installing: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/ament_index/resource_index/packages/small_gicp_relocalization
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig.cmake
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig-version.cmake
+-- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.xml

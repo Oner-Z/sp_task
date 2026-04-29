@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_msg",
+  "non_idl_tuples": [
+    "/home/zph/task/vision/dist/src/robot_msg:msg/LogMsg.msg",
+    "/home/zph/task/vision/dist/src/robot_msg:msg/GimbalControlMsg.msg"
+  ]
+}

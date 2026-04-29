@@ -1,0 +1,10 @@
+/home/zph/task/build/ballistic_solver/CMakeFiles/uninstall.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/ballistic_solver_uninstall.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/solver_node.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/test.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/edit_cache.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/rebuild_cache.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/list_install_components.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/install.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/install/local.dir
+/home/zph/task/build/ballistic_solver/CMakeFiles/install/strip.dir
