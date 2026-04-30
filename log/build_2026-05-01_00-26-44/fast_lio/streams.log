@@ -1,0 +1,178 @@
+[0.029s] Invoking command in '/home/zph/task/build/fast_lio': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/fast_lio -- -j20 -l20
+[0.077s] [  8%] Built target fast_lio__rosidl_generator_c
+[0.080s] [ 10%] Built target fast_lio__cpp
+[0.080s] [ 16%] Built target map_save
+[0.086s] [ 16%] Built target ament_cmake_python_copy_fast_lio
+[0.101s] [ 24%] Built target fast_lio__rosidl_typesupport_c
+[0.101s] [ 32%] Built target fast_lio__rosidl_typesupport_introspection_c
+[0.101s] [ 40%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[0.104s] [ 48%] Built target fast_lio__rosidl_typesupport_cpp
+[0.104s] [ 56%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[0.104s] [ 64%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[0.123s] [ 64%] Built target fast_lio
+[0.143s] [ 67%] Built target fast_lio__py
+[0.147s] [ 70%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[0.165s] [ 75%] Built target fast_lio__rosidl_generator_py
+[0.184s] [ 81%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[0.184s] [ 86%] Built target fast_lio__rosidl_typesupport_c__pyext
+[0.187s] [ 91%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[0.305s] running egg_info
+[0.306s] writing fast_lio.egg-info/PKG-INFO
+[0.306s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[0.306s] writing top-level names to fast_lio.egg-info/top_level.txt
+[0.308s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.308s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[0.333s] [ 91%] Built target ament_cmake_python_build_fast_lio_egg
+[48.992s] [ 94%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[49.823s] [100%] Built target fastlio_mapping
+[49.833s] Invoked command in '/home/zph/task/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/fast_lio -- -j20 -l20
+[49.834s] Invoking command in '/home/zph/task/build/fast_lio': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/fast_lio
+[49.841s] -- Install configuration: "Release"
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/library_path.sh
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[49.841s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[49.842s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[49.843s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info
+[49.843s] -- Installing: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[49.844s] -- Installing: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[49.844s] -- Installing: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[49.844s] -- Installing: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[49.844s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[49.874s] Listing '/home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...
+[49.874s] Listing '/home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...
+[49.877s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[49.877s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[49.877s] -- Up-to-date: /home/zph/task/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[49.877s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[49.877s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[49.877s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[49.877s] -- Installing: /home/zph/task/install/fast_lio/lib/fast_lio/fastlio_mapping
+[49.879s] -- Set runtime path of "/home/zph/task/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/horizon.yamlZone.IdentifierZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/horizon.yaml
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/ouster64.yamlZone.IdentifierZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/mid360.yaml
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/avia.yamlZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/avia.yamlZone.IdentifierZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/velodyne.yamlZone.IdentifierZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/mid360.yamlZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/ouster64.yamlZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/mid360.yamlZone.IdentifierZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/velodyne.yamlZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/horizon.yamlZone.Identifier
+[49.879s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/config/avia.yaml
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launchZone.Identifier
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launchZone.IdentifierZone.Identifier
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch/mapping.launch.pyZone.IdentifierZone.Identifier
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/launch/mapping.launch.pyZone.Identifier
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/rviz
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/rviz/fastlio.rvizZone.Identifier
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/rviz/fastlio.rvizZone.IdentifierZone.Identifier
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/lib/fast_lio/map_save
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/path.sh
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/environment/path.dsv
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/local_setup.bash
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/local_setup.sh
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/local_setup.zsh
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/local_setup.dsv
+[49.880s] -- Installing: /home/zph/task/install/fast_lio/share/fast_lio/package.dsv
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[49.880s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[49.881s] -- Up-to-date: /home/zph/task/install/fast_lio/share/fast_lio/package.xml
+[49.883s] Invoked command in '/home/zph/task/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/fast_lio

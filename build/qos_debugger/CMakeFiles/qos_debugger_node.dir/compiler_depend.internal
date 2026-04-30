@@ -695,4 +695,10 @@ CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/log_msg.hpp
+ /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__struct.hpp
+ /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__builder.hpp
+ /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__traits.hpp
+ /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__type_support.hpp
+ /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp
 

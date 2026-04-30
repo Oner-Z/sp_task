@@ -693,8 +693,18 @@ CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o: /home/zph/task/vis
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/log_msg.hpp \
+  /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__struct.hpp \
+  /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__builder.hpp \
+  /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__traits.hpp \
+  /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__type_support.hpp \
+  /home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp
 
+
+/home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__traits.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp:
 
@@ -1324,6 +1334,8 @@ CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o: /home/zph/task/vis
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
+/home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__type_support.hpp:
+
 /usr/include/c++/11/bits/allocator.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
@@ -1353,6 +1365,8 @@ CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o: /home/zph/task/vis
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
+
+/home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
@@ -1437,6 +1451,8 @@ CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o: /home/zph/task/vis
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/detail/log_msg__struct.hpp:
 
 /usr/include/c++/11/iterator:
 
@@ -1589,6 +1605,8 @@ CMakeFiles/qos_debugger_node.dir/src/qos_debugger_node.cpp.o: /home/zph/task/vis
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/streambuf.tcc:
+
+/home/zph/task/install/robot_msg/include/robot_msg/robot_msg/msg/log_msg.hpp:
 
 /usr/include/string.h:
 

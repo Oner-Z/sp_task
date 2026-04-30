@@ -25,14 +25,14 @@ private:
         if (last_time_stamp > 0.0) {
             fps = 1.0 / (now_time_stamp - last_time_stamp);
             RCLCPP_INFO(this->get_logger(), "FPS: %f", fps);
-
-            auto log_msg = robot_msg::msg::LogMsg();
-            log_msg.header.stamp = this->now();
-            log_msg.fps = fps;
-            log_msg.node_name = "qos_debugger_node";
-            log_msg.diagnostic_info = "lidar pointcloud fps monitor";
-            sensor_pub_->publish(log_msg);
         }
+
+        log_msg.header.stamp = this->now();
+        log_msg.fps = fps;
+        log_msg.node_name = "qos_debugger_node";
+        log_msg.diagnostic_info = "this is a fps monitor";
+        sensor_pub_->publish(log_msg);
+
         last_time_stamp = now_time_stamp;
     }
 
@@ -41,6 +41,7 @@ private:
     double last_time_stamp = 0.0;
     double now_time_stamp;
     double fps;
+    robot_msg::msg::LogMsg log_msg;
 };
 
 int main(int argc, char * argv[]) {
