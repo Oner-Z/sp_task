@@ -6,6 +6,7 @@
 #include <pcl/point_types.h>
 #include <pcl/point_cloud.h>
 #include <pcl_conversions/pcl_conversions.h>
+#include <pcl/registration/gicp.h>
 
 class RelocalizationNode : public rclcpp::Node {
 public:
@@ -24,7 +25,7 @@ public:
 
         // Subscribe to current scan
         cloud_sub_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-            "/livox/lidar",
+            "/livox/lidar/pointcloud",
             rclcpp::SensorDataQoS(),
             std::bind(&RelocalizationNode::cloud_callback, this, std::placeholders::_1)
         );
@@ -38,18 +39,45 @@ public:
 private:
     void cloud_callback(const sensor_msgs::msg::PointCloud2::SharedPtr msg) {
         // Convert ROS message to PCL
+        RCLCPP_INFO(this->get_logger(), "Received point cloud with %u points", msg->width * msg->height);
         pcl::PointCloud<pcl::PointXYZ>::Ptr current_scan(new pcl::PointCloud<pcl::PointXYZ>);
         pcl::fromROSMsg(*msg, *current_scan);
-
+        
         // TODO: Perform GICP registration here
         // The core registration loop has been removed for the exam
         // Candidates need to implement:
         // 1. Initialize transformation matrix
         // 2. Run GICP alignment between current_scan and map_cloud_
         // 3. Extract the transformation result
+        //TODO: 在此处完成 GICP 配准
+        // 核心配准循环已移除以供考试使用
+        // 考生需要实现：
+        // 1. 初始化变换矩阵
+        // 2. 对 current_scan 和 map_cloud_ 执行 GICP 对齐
+        // 3. 提取变换结果
+        pcl::GeneralizedIterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> gicp;
+
+        gicp.setInputSource(current_scan);
+        gicp.setInputTarget(map_cloud_);
+
+        gicp.setMaximumIterations(50);
+        gicp.setTransformationEpsilon(1e-6);
+        gicp.setEuclideanFitnessEpsilon(1e-2);
+        gicp.setMaxCorrespondenceDistance(2.0);
+
+        pcl::PointCloud<pcl::PointXYZ> aligned_scan;
+        gicp.align(aligned_scan);
 
         // Placeholder transformation (identity)
-        Eigen::Matrix4f transformation = Eigen::Matrix4f::Identity();
+        Eigen::Matrix4f transformation;
+        if (gicp.hasConverged()) {
+            transformation = gicp.getFinalTransformation();
+            RCLCPP_INFO(this->get_logger(), "GICP converged with score: %f", gicp.getFitnessScore());
+        } else {
+            RCLCPP_WARN(this->get_logger(), "GICP did not converge");
+            transformation = Eigen::Matrix4f::Identity();
+        }
+
 
         // Publish TF: map -> odom
         publish_transform(transformation, msg->header.stamp);
@@ -81,6 +109,7 @@ private:
     pcl::PointCloud<pcl::PointXYZ>::Ptr map_cloud_;
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr cloud_sub_;
     std::shared_ptr<tf2_ros::TransformBroadcaster> tf_broadcaster_;
+    pcl::PointCloud<pcl::PointXYZ>::Ptr total_scan{new pcl::PointCloud<pcl::PointXYZ>};
 };
 
 int main(int argc, char** argv) {
