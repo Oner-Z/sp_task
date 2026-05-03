@@ -60,10 +60,10 @@ private:
         gicp.setInputSource(current_scan);
         gicp.setInputTarget(map_cloud_);
 
-        gicp.setMaximumIterations(50);
-        gicp.setTransformationEpsilon(1e-6);
-        gicp.setEuclideanFitnessEpsilon(1e-2);
-        gicp.setMaxCorrespondenceDistance(2.0);
+        gicp.setMaximumIterations(100);
+        gicp.setTransformationEpsilon(1e-8);
+        gicp.setEuclideanFitnessEpsilon(1e-3);
+        gicp.setMaxCorrespondenceDistance(0.3);
 
         pcl::PointCloud<pcl::PointXYZ> aligned_scan;
         gicp.align(aligned_scan);

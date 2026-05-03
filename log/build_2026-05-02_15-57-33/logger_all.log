@@ -1,0 +1,732 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ad278022440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ad278021f30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ad278021f30>>)
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.207s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zph/task'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_mapping) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag/rosbag_trimmed) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/build) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/build) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/build) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/docs) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/install) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/log) ignored
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/scripts) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'python'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extensions ['python_setup_py']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src) by extension 'python_setup_py'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/FAST_LIO) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'vision/dist/src/FAST_LIO' with type 'ros.ament_cmake' and name 'fast_lio'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/ballistic_solver) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'vision/dist/src/ballistic_solver' with type 'ros.ament_cmake' and name 'ballistic_solver'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/livox_ros_driver2/src) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'vision/dist/src/livox_ros_driver2/src' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/qos_debugger) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'vision/dist/src/qos_debugger' with type 'ros.ament_cmake' and name 'qos_debugger'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/robot_msg) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'vision/dist/src/robot_msg' with type 'ros.ament_cmake' and name 'robot_msg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/small_gicp_relocalization) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'vision/dist/src/small_gicp_relocalization' with type 'ros.ament_cmake' and name 'small_gicp_relocalization'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/include/ballistic_solver) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/ballistic_solver/src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/config) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/launch) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(vision/dist/src/src/small_gicp_relocalization/src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/zph/task/install
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/humble
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zph/task/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zph/task/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/zph/task/vision/dist/src/livox_ros_driver2/src', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'robot_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'robot_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zph/task/build/robot_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zph/task/install/robot_msg', 'merge_install': False, 'path': '/home/zph/task/vision/dist/src/robot_msg', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_target' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_clean_first' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'cmake_force_configure' from command line to 'False'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'ament_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'small_gicp_relocalization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.281s] DEBUG:colcon.colcon_core.verb:Building package 'small_gicp_relocalization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zph/task/build/small_gicp_relocalization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zph/task/install/small_gicp_relocalization', 'merge_install': False, 'path': '/home/zph/task/vision/dist/src/small_gicp_relocalization', 'symlink_install': False, 'test_result_base': None}
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'cmake_args' from command line to 'None'
+[0.281s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'ballistic_solver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'ballistic_solver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zph/task/build/ballistic_solver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zph/task/install/ballistic_solver', 'merge_install': False, 'path': '/home/zph/task/vision/dist/src/ballistic_solver', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'fast_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'fast_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zph/task/build/fast_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zph/task/install/fast_lio', 'merge_install': False, 'path': '/home/zph/task/vision/dist/src/FAST_LIO', 'symlink_install': False, 'test_result_base': None}
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_target' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_clean_first' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'cmake_force_configure' from command line to 'False'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'ament_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.282s] Level 5:colcon.colcon_core.verb:set package 'qos_debugger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.282s] DEBUG:colcon.colcon_core.verb:Building package 'qos_debugger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zph/task/build/qos_debugger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zph/task/install/qos_debugger', 'merge_install': False, 'path': '/home/zph/task/vision/dist/src/qos_debugger', 'symlink_install': False, 'test_result_base': None}
+[0.282s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zph/task/vision/dist/src/robot_msg' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zph/task/vision/dist/src/robot_msg'
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zph/task/vision/dist/src/livox_ros_driver2/src' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zph/task/vision/dist/src/livox_ros_driver2/src'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zph/task/vision/dist/src/small_gicp_relocalization' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zph/task/vision/dist/src/small_gicp_relocalization'
+[0.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/robot_msg -- -j20 -l20
+[0.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/livox_ros_driver2 -- -j20 -l20
+[0.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/small_gicp_relocalization -- -j20 -l20
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/livox_ros_driver2 -- -j20 -l20
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/livox_ros_driver2
+[0.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2' for CMake module files
+[0.637s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2' for CMake config files
+[0.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/livox_ros_driver2
+[0.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/lib'
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/bin'
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.641s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/bin'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.644s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2' for CMake module files
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2' for CMake config files
+[0.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/lib'
+[0.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/bin'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/livox_ros_driver2/bin'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zph/task/vision/dist/src/FAST_LIO' with build type 'ament_cmake'
+[0.649s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zph/task/vision/dist/src/FAST_LIO'
+[0.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.649s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/robot_msg -- -j20 -l20
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/robot_msg
+[0.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/fast_lio': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/fast_lio -- -j20 -l20
+[0.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_msg)
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg' for CMake module files
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/robot_msg
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg' for CMake config files
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msg', 'cmake_prefix_path')
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/cmake_prefix_path.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/robot_msg/share/robot_msg/hook/cmake_prefix_path.dsv'
+[0.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/cmake_prefix_path.sh'
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/lib'
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msg', 'ld_library_path_lib')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/ld_library_path_lib.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/robot_msg/share/robot_msg/hook/ld_library_path_lib.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/ld_library_path_lib.sh'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/bin'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/lib/pkgconfig/robot_msg.pc'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/lib/python3.10/site-packages'
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/bin'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/robot_msg/share/robot_msg/package.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.sh'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.bash'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.zsh'
+[0.712s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/robot_msg/share/colcon-core/packages/robot_msg)
+[0.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_msg)
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg' for CMake module files
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg' for CMake config files
+[0.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msg', 'cmake_prefix_path')
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/cmake_prefix_path.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/robot_msg/share/robot_msg/hook/cmake_prefix_path.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/cmake_prefix_path.sh'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/lib'
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_msg', 'ld_library_path_lib')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/ld_library_path_lib.ps1'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/robot_msg/share/robot_msg/hook/ld_library_path_lib.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/robot_msg/share/robot_msg/hook/ld_library_path_lib.sh'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/bin'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/lib/pkgconfig/robot_msg.pc'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/lib/python3.10/site-packages'
+[0.718s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/robot_msg/bin'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/robot_msg/share/robot_msg/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.sh'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.bash'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/robot_msg/share/robot_msg/package.zsh'
+[0.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/robot_msg/share/colcon-core/packages/robot_msg)
+[0.721s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zph/task/vision/dist/src/ballistic_solver' with build type 'ament_cmake'
+[0.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zph/task/vision/dist/src/ballistic_solver'
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zph/task/vision/dist/src/qos_debugger' with build type 'ament_cmake'
+[0.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zph/task/vision/dist/src/qos_debugger'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/ballistic_solver': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/ballistic_solver -- -j20 -l20
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/qos_debugger': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/qos_debugger -- -j20 -l20
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/ballistic_solver' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/ballistic_solver -- -j20 -l20
+[0.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/ballistic_solver': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/ballistic_solver
+[0.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/qos_debugger' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/qos_debugger -- -j20 -l20
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/qos_debugger': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/qos_debugger
+[0.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ballistic_solver)
+[0.803s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver' for CMake module files
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/ballistic_solver' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/ballistic_solver
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver' for CMake config files
+[0.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('ballistic_solver', 'cmake_prefix_path')
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/ballistic_solver/share/ballistic_solver/hook/cmake_prefix_path.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/ballistic_solver/share/ballistic_solver/hook/cmake_prefix_path.dsv'
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/ballistic_solver/share/ballistic_solver/hook/cmake_prefix_path.sh'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/lib'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/bin'
+[0.806s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/lib/pkgconfig/ballistic_solver.pc'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/lib/python3.10/site-packages'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/bin'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.ps1'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.dsv'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.sh'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.bash'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.zsh'
+[0.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/ballistic_solver/share/colcon-core/packages/ballistic_solver)
+[0.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ballistic_solver)
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver' for CMake module files
+[0.813s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver' for CMake config files
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('ballistic_solver', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/ballistic_solver/share/ballistic_solver/hook/cmake_prefix_path.ps1'
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/ballistic_solver/share/ballistic_solver/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/ballistic_solver/share/ballistic_solver/hook/cmake_prefix_path.sh'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/lib'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/bin'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/lib/pkgconfig/ballistic_solver.pc'
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/lib/python3.10/site-packages'
+[0.815s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/ballistic_solver/bin'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.sh'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.bash'
+[0.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/ballistic_solver/share/ballistic_solver/package.zsh'
+[0.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/ballistic_solver/share/colcon-core/packages/ballistic_solver)
+[0.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_debugger)
+[0.818s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger' for CMake module files
+[0.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/qos_debugger' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/robot_msg:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/fast_lio:/home/zph/task/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/home/zph/task/install/livox_ros_driver2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/qos_debugger
+[0.819s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger' for CMake config files
+[0.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_debugger', 'cmake_prefix_path')
+[0.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.ps1'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.sh'
+[0.820s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/lib'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/bin'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/lib/pkgconfig/qos_debugger.pc'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/lib/python3.10/site-packages'
+[0.821s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/bin'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.ps1'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/qos_debugger/share/qos_debugger/package.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.sh'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.bash'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/qos_debugger/share/colcon-core/packages/qos_debugger)
+[0.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qos_debugger)
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger' for CMake module files
+[0.823s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger' for CMake config files
+[0.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('qos_debugger', 'cmake_prefix_path')
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.ps1'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.dsv'
+[0.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/qos_debugger/share/qos_debugger/hook/cmake_prefix_path.sh'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/lib'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/bin'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/lib/pkgconfig/qos_debugger.pc'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/lib/python3.10/site-packages'
+[0.825s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/qos_debugger/bin'
+[0.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.ps1'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/qos_debugger/share/qos_debugger/package.dsv'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.sh'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.bash'
+[0.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/qos_debugger/share/qos_debugger/package.zsh'
+[0.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/qos_debugger/share/colcon-core/packages/qos_debugger)
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --build /home/zph/task/build/fast_lio -- -j20 -l20
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/fast_lio': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/fast_lio
+[0.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio' for CMake module files
+[0.970s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio' for CMake config files
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/fast_lio' returned '0': CMAKE_PREFIX_PATH=/home/zph/task/install/livox_ros_driver2:/home/zph/task/install/small_gicp_relocalization:/home/zph/task/install/qos_debugger:/home/zph/task/install/ballistic_solver:/home/zph/task/install/robot_msg:/home/zph/task/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/zph/task/install/livox_ros_driver2/lib:/home/zph/task/install/robot_msg/lib:/home/zph/task/install/fast_lio/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 /usr/bin/cmake --install /home/zph/task/build/fast_lio
+[0.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/lib'
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/lib/python3.10/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/bin'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/fast_lio/share/fast_lio/package.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.sh'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.bash'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.zsh'
+[0.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/fast_lio/share/colcon-core/packages/fast_lio)
+[0.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fast_lio)
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio' for CMake module files
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio' for CMake config files
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'cmake_prefix_path')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/cmake_prefix_path.sh'
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/lib'
+[0.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('fast_lio', 'ld_library_path_lib')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/fast_lio/share/fast_lio/hook/ld_library_path_lib.sh'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/bin'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/lib/pkgconfig/fast_lio.pc'
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/lib/python3.10/site-packages'
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/fast_lio/bin'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/fast_lio/share/fast_lio/package.dsv'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.sh'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.bash'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/fast_lio/share/fast_lio/package.zsh'
+[0.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/fast_lio/share/colcon-core/packages/fast_lio)
+[17.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/small_gicp_relocalization -- -j20 -l20
+[17.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zph/task/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/small_gicp_relocalization
+[17.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(small_gicp_relocalization)
+[17.198s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization' for CMake module files
+[17.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zph/task/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/small_gicp_relocalization
+[17.199s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization' for CMake config files
+[17.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('small_gicp_relocalization', 'cmake_prefix_path')
+[17.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.ps1'
+[17.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.dsv'
+[17.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.sh'
+[17.200s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/lib'
+[17.200s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/bin'
+[17.200s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/lib/pkgconfig/small_gicp_relocalization.pc'
+[17.200s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/lib/python3.10/site-packages'
+[17.201s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/bin'
+[17.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.ps1'
+[17.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv'
+[17.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.sh'
+[17.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.bash'
+[17.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.zsh'
+[17.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/small_gicp_relocalization/share/colcon-core/packages/small_gicp_relocalization)
+[17.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(small_gicp_relocalization)
+[17.202s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization' for CMake module files
+[17.202s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization' for CMake config files
+[17.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('small_gicp_relocalization', 'cmake_prefix_path')
+[17.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.ps1'
+[17.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.dsv'
+[17.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/hook/cmake_prefix_path.sh'
+[17.203s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/lib'
+[17.203s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/bin'
+[17.203s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/lib/pkgconfig/small_gicp_relocalization.pc'
+[17.203s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/lib/python3.10/site-packages'
+[17.204s] Level 1:colcon.colcon_core.environment:checking '/home/zph/task/install/small_gicp_relocalization/bin'
+[17.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.ps1'
+[17.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv'
+[17.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.sh'
+[17.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.bash'
+[17.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.zsh'
+[17.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zph/task/install/small_gicp_relocalization/share/colcon-core/packages/small_gicp_relocalization)
+[17.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.206s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.211s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.211s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.220s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zph/task/install/local_setup.ps1'
+[17.221s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zph/task/install/_local_setup_util_ps1.py'
+[17.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zph/task/install/setup.ps1'
+[17.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zph/task/install/local_setup.sh'
+[17.223s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zph/task/install/_local_setup_util_sh.py'
+[17.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zph/task/install/setup.sh'
+[17.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zph/task/install/local_setup.bash'
+[17.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zph/task/install/setup.bash'
+[17.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zph/task/install/local_setup.zsh'
+[17.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zph/task/install/setup.zsh'

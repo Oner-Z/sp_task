@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/zph/task/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/small_gicp_relocalization -- -j20 -l20
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target relocalization_node[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/relocalization_node.dir/src/relocalization_node.cpp.o[0m
+[15.878s] [100%] [32m[1mLinking CXX executable relocalization_node[0m
+[16.884s] [100%] Built target relocalization_node
+[16.895s] Invoked command in '/home/zph/task/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zph/task/build/small_gicp_relocalization -- -j20 -l20
+[16.896s] Invoking command in '/home/zph/task/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/small_gicp_relocalization
+[16.901s] -- Install configuration: ""
+[16.902s] -- Installing: /home/zph/task/install/small_gicp_relocalization/lib/small_gicp_relocalization/relocalization_node
+[16.906s] -- Set runtime path of "/home/zph/task/install/small_gicp_relocalization/lib/small_gicp_relocalization/relocalization_node" to ""
+[16.906s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/launch
+[16.906s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/relocalization.launch.pyZone.Identifier
+[16.906s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/relocalization.launch.py
+[16.906s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/config
+[16.906s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/config/relocalization.yaml
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/config/relocalization.yamlZone.Identifier
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/ament_index/resource_index/package_run_dependencies/small_gicp_relocalization
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/ament_index/resource_index/parent_prefix_path/small_gicp_relocalization
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.sh
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.dsv
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.sh
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.dsv
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.bash
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.sh
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.zsh
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.dsv
+[16.907s] -- Installing: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/ament_index/resource_index/packages/small_gicp_relocalization
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig.cmake
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig-version.cmake
+[16.907s] -- Up-to-date: /home/zph/task/install/small_gicp_relocalization/share/small_gicp_relocalization/package.xml
+[16.908s] Invoked command in '/home/zph/task/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zph/task/build/small_gicp_relocalization
